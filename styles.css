@@ -1,0 +1,33 @@
+/* bg-color: #f9c74f */
+
+body {
+    background-color: #f9c74f;
+}
+
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.character {
+    margin: 225px 0;
+}
+
+.character img {
+    opacity: 0.5;
+}
+
+.character.activate img {
+    opacity: 1;
+}
+
+.character p {
+    color: #000;
+    font-size: 36px;
+    text-align: center;
+    font-family: sans-serif;
+}
